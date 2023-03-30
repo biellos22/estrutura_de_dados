@@ -21,23 +21,18 @@ for i in range(len(lista1)):
 
 print("decrescente:", lista1)
 
-def fib(n):
-    if n <= 1:
-        return n
-    return fib(n - 1) + fib(n - 2)
-
 ns = []
 tempos = []
 
 for n in range(1, 16):
     start = time.perf_counter()
-    result= fib(n)
     end = time.perf_counter()
     ms = (end-start) * 10**6
     ns.append(n)
     tempos.append(ms)
-print(result) 
-
+print(start)
+print(end)
+print(ms)
 plt.plot(ns, tempos)
 plt.xlabel('Valor de n')
 plt.ylabel('Tempo de execução (micro segundos)')
