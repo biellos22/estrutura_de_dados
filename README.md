@@ -13,7 +13,7 @@ Membros: Gabriel Martins, Caio Jotta, Daniel Monteiro e Yago da Costa</h5>
   enquanto a segunda parte mede o tempo de execução de uma função.</p>
 
 ##
-<p>No código importamos as bibliotecas time e matplotlib.pyplot as plt. Em seguida, criamos uma lista chamada<br> "elementos" contendo uma matriz 4x4. Utilizando dois loops for encadeados, percorremos cada sublista em "elementos"<br> e adicionamos cada elemento na lista "lista1". Ao final do loop, todos os elementos da lista "elementos" são adicionados à lista "lista1".</p>
+<p>No código importamos as bibliotecas time e matplotlib.pyplot as plt. Em seguida, criamos uma lista chamada<br> "elementos" contendo uma matriz 4x4. Utilizando dois loops for encadeados, percorremos cada sublista em "elementos" e adicionamos cada elemento na lista "lista1". Ao final do loop, todos os elementos da lista "elementos" são adicionados à lista "lista1".</p>
 
 ![image](https://user-images.githubusercontent.com/108537753/228974479-8eeed3dc-ee8a-4a13-80d2-12d089d41b03.png)
 <br><br>
