@@ -33,6 +33,7 @@ for n in range(1, 16):
 print(start)
 print(end)
 print(ms)
+
 plt.plot(ns, tempos)
 plt.xlabel('Valor de n')
 plt.ylabel('Tempo de execução (micro segundos)')
